@@ -52,7 +52,7 @@ num = "0.4.1"
 [target.'cfg(not(all(target_arch = "wasm32", not(target_os = "emscripten"))))'.dependencies]
 rand_os = "0.1"
 noop_proc_macro = "0.3.0"
-getrandom = "0.2.3"
+getrandom = "0.3.3"
 
 # wasm
 [target.'cfg(all(target_arch = "wasm32", not(target_os = "emscripten")))'.dependencies]
